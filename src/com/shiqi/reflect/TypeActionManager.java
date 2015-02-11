@@ -11,10 +11,6 @@ public class TypeActionManager {
 		mTypeMap.put(float.class, new FloatAction());
 		mTypeMap.put(double.class, new DoubleAction());
 		mTypeMap.put(boolean.class, new BooleanAction());
-		mTypeMap.put(Integer.class, new IntAction());
-		mTypeMap.put(Float.class, new FloatAction());
-		mTypeMap.put(Double.class, new DoubleAction());
-		mTypeMap.put(Boolean.class, new BooleanAction());
 	}
 	
 	public static TypeActionManager getInstance() {
